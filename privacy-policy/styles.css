@@ -24,14 +24,14 @@
 }
 
 .demo-main {
-  margin-top: -50vh;
+  margin-top: -60vh;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
 }
 
 .demo-header .mdl-layout__header-row {
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .demo-container {
@@ -43,7 +43,7 @@
 .demo-content {
   border-radius: 2px;
   padding: 80px 56px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .demo-layout.is-small-screen .demo-content {
