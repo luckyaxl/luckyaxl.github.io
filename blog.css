@@ -1,248 +1,282 @@
-/*Navigation*/
-.navbar {
-  border-radius: 0;
-}
-/*Nav Brand*/
-.navbar-brand img {
-  width: 32px;
-  height: 32px;
-}
-.navbar-brand {
-  padding: 10px 20px;
-}
-/*Blog Wrapper*/
-.blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: -20px;
-}
-.blog-main {
-  font-size: 18px;
-  line-height: 1.5;
-}
-.blog-sidebar {
-  margin: 0;
-}
-/*Headings*/
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  color: #333;
-}
-/*Posts*/
-.post .post-title {
-  margin-bottom: 0;
-}
-.post-body {
-  margin: 0 0 0.75em;
-  line-height: 1.6em;
-  font-size: 15px;
-}
-/*Post Image*/
-.post table.tr-caption-container td {
-  border: none;
-  padding: 8px;
-}
-.post table.tr-caption-container,
-.post table.tr-caption-container img,
-.post img {
-  max-width: 100%;
-  height: auto;
-}
-.post td.tr-caption {
-  color: #333;
-  font-size: 80%;
-  padding: 8px 8px 8px !important;
-  background-color: #eee;
-  font-style: italic;
-}
-img {
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
-}
-table.tr-caption-container {
-  padding: 4px;
-  margin-bottom: 0.5em;
-}
-td.tr-caption {
-  font-size: 80%;
-}
-.post table caption {
-  border: none;
-  font-style: italic;
-}
-.post table caption {
-  border: 1px solid #d8dde1;
-  padding: 0.2em 0.5em;
-  text-align: left;
-  vertical-align: top;
-}
-/*Post Footer*/
-.post-footer {
-  margin: 0.75em 0;
-  letter-spacing: 0.1em;
-  line-height: 1.4em;
-  font-size: 12px;
-}
-/*Post Meta*/
-.blog-post-meta {
-  margin: 10px 0 5px;
-  color: #999;
-  font-size: 15px;
-}
-.blog-post-meta a {
-  color: #999;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 4px;
-}
-.blog-post-meta a:hover {
-  border-bottom: 1px solid #23527c;
-}
-.timestamp-link {
-  cursor: help;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 4px;
-}
-.timestamp-link:hover {
-  border-bottom: 1px solid #23527c;
-}
-/*Breadcrumbs and Date Header Font-size*/
-.breadcrumb,
-.date-header {
-  font-size: 13px;
-}
-/*SideBar*/
-.sidebar .widget ul,
-.sidebar .widget ol {
-  margin-top: 0;
-}
-.sidebar h2,
-.sidebar h3,
-.footer h2 {
-  color: #333;
-  font-size: 15px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 0 0 20px 0;
-  position: relative;
-  padding: 8px 15px;
-  list-style: none;
-  background-color: #f5f5f5;
-  border-radius: 4px;
-}
-/*Popular Posts*/
-.popular-posts ul,
-.popular-posts li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.popular-posts li {
-  margin-bottom: 0.6em;
-}
-.PopularPosts .item-snippet {
-  font-size: 12px;
-  color: #333;
-  max-height: 45px;
-  overflow: hidden;
-}
-.PopularPosts .item-thumbnail {
-  transition: all 0.15s ease-in-out 0s;
-  margin: 0 8px 0 0;
-  display: inline;
-  opacity: 10;
-}
-.PopularPosts .item-thumbnail a img {
-  height: 69px;
-  width: 69px;
-  display: block;
-  margin: 0;
-  padding: 2px;
-  border: 1px solid #e8e8e8 !important;
-}
-.PopularPosts .item-thumbnail a img:hover {
-  background: #00afaf;
-  border: 1px solid #00afaf !important;
-}
-.PopularPosts .widget-content ul li {
-  padding: 3px 0px !important;
-  border-bottom: 1px solid #e2e2e2;
-}
-/*Footer*/
-.blog-footer {
-  padding: 40px 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
-}
-.blog-footer a {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 4px;
-}
-.blog-footer a:hover {
-  border-bottom: 1px solid #23527c;
-}
-/*Comments*/
-#comments h4 {
-  margin: 1em 0;
-  font-weight: bold;
-  line-height: 1.4em;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-}
-#comments-block {
-  margin: 1em 0 1.5em;
-  line-height: 1.6em;
-}
-#comments-block .comment-author {
-  margin: 0.5em 0;
-}
-#comments-block .comment-body {
-  margin: 0.25em 0 0;
-}
-#comments-block .comment-footer {
-  margin: -0.25em 0 2em;
-  line-height: 1.4em;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-#comments-block .comment-body p {
-  margin: 0 0 0.75em;
-}
-.deleted-comment {
-  font-style: italic;
-  color: gray;
-}
-.feed-links {
-  display: none;
-}
-/*Responsive*/
 
-/*Override Bootstrap's default container.*/
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
-@media screen and (max-width: 960px) {
-  .blog-main,
-  .blog-sidebar {
-    float: none;
-    display: block;
-    width: auto;
-  }
-}
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Shards - Agency Landing Page built with Shards - A Modern UI Toolkit</title>
+        <meta name="description" content="A demo landing page for agencies or product oriented businesses built using Shards, a free, modern and lightweight UI toolkit based on Bootstrap 4.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS Dependencies -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/shards.min.css">
+        <link rel="stylesheet" href="css/shards-extras.min.css">
+    </head>
+    <body class="shards-landing-page--1">
+      <!-- Welcome Section -->
+      <div class="welcome d-flex justify-content-center flex-column">
+        <div class="container">
+          <!-- Navigation -->
+          <nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0">
+            <a class="navbar-brand" href="#">
+              <img src="images/agency-landing/shards-logo-white.svg" class="mr-2" alt="Shards - Agency Landing Page">
+              Shards Agency
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testimonials</a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://twitter.com/DesignRevision"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.facebook.com/designrevision"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://dribbble.com/hisk"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/designrevision"><i class="fa fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- / Navigation -->
+        </div> <!-- .container -->
+
+        <!-- Inner Wrapper -->
+        <div class="inner-wrapper mt-auto mb-auto container">
+          <div class="row">
+            <div class="col-md-7">
+                <h1 class="welcome-heading display-4 text-white">Product Development</h1>
+                <p class="text-white">We can help you take your idea from concept to shipping using the latest technologies and best practices available.</p>
+                <a href="#our-services" class="btn btn-lg btn-outline-white btn-pill align-self-center">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- / Inner Wrapper -->
+      </div>
+      <!-- / Welcome Section -->
+
+      <!-- Our Services Section -->
+      <div id="our-services" class="our-services section py-4">
+        <h3 class="section-title text-center my-5">Our Services</h3>
+        <!-- Features -->
+        <div class="features py-4 mb-4">
+          <div class="container">
+            <div class="row">
+              <div class="feature py-4 col-md-6 d-flex">
+                <div class="icon text-primary mr-3"><i class="fa fa-paint-brush"></i></div>
+                <div class="px-4">
+                    <h5>Design & Branding</h5>
+                    <p>Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque.</p>
+                </div>
+              </div>
+              <div class="feature py-4 col-md-6 d-flex">
+                <div class="icon text-primary mr-3"><i class="fa fa-code"></i></div>
+                <div class="px-4">
+                    <h5>Programming</h5>
+                    <p>Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="feature py-4 col-md-6 d-flex">
+                <div class="icon text-primary mr-3"><i class="fa fa-font"></i></div>
+                <div class="px-4">
+                    <h5>Copywriting</h5>
+                    <p>Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque.</p>
+                </div>
+              </div>
+              <div class="feature py-4 col-md-6 d-flex">
+                <div class="icon text-primary mr-3"><i class="fa fa-support"></i></div>
+                <div class="px-4">
+                    <h5>Training & Support</h5>
+                    <p>Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Features -->
+      </div>
+      <!-- / Our Services Section -->
+
+      <!-- Our Blog Section -->
+      <div class="blog section section-invert py-4">
+        <h3 class="section-title text-center m-5">Latest Posts</h3>
+
+        <div class="container">
+          <div class="py-4">
+            <div class="row">
+              <div class="card-deck">
+              <div class="col-md-12 col-lg-4">
+                <div class="card mb-4">
+                  <img class="card-img-top" src="images/common/card-1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Find Great Places to Work While Travelling</h4>
+                    <p class="card-text">He seems sinking under the evidence could not only grieve and a visit. The father is to bless and placed in his length hid...</p>
+                    <a class="btn btn-primary btn-pill" href="#">Read More &rarr;</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-lg-4">
+                <div class="card mb-4">
+                  <img class="card-img-top" src="images/common/card-3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Quick Tips for Improving Your Website's Design</h4>
+                    <p class="card-text">He seems sinking under the evidence could not only grieve and a visit. The father is to bless and placed in his length hid...</p>
+                    <a class="btn btn-primary btn-pill" href="#">Read More &rarr;</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-lg-4">
+                <div class="card mb-4">
+                  <img class="card-img-top" src="images/common/card-2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">A Designer's Tips While Travelling and Working</h4>
+                    <p class="card-text">He seems sinking under the evidence could not only grieve and a visit. The father is to bless and placed in his length hid...</p>
+                    <a class="btn btn-primary btn-pill" href="#">Read More &rarr;</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Our Blog Section -->
+
+      <!-- Testimonials Section -->
+      <div class="testimonials section py-4">
+          <h3 class="section-title text-center m-5">Testimonials</h3>
+          <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4 testimonial text-center">
+                    <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+                        <img src="images/common/avatar-1.jpeg" class="w-100" alt="Testimonial Avatar" />
+                    </div>
+                    <h5 class="mb-1">Osbourne Tranter</h5>
+                    <span class="text-muted d-block mb-2">CEO at Megacorp</span>
+                    <p>Vivamus quis ex mattis, gravida erat a, iaculis urna. Proin ac eleifend tortor. Nunc in augue eget enim venenatis viverra.</p>
+                </div>
+
+                <div class="col-md-4 testimonial text-center">
+                    <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+                        <img src="images/common/avatar-2.jpeg" class="w-100" alt="Testimonial Avatar" />
+                    </div>
+                    <h5 class="mb-1">Darrin Ollie</h5>
+                    <span class="text-muted d-block mb-2">CEO at Megacorp</span>
+                    <p>Nullam eu ligula facilisis, commodo velit non, vulputate dolor. Aenean congue euismod vestibulum.</p>
+                </div>
+
+                <div class="col-md-4 testimonial text-center">
+                    <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+                        <img src="images/common/avatar-3.jpeg" class="w-100" alt="Testimonial Avatar" />
+                    </div>
+                    <h5 class="mb-1">Quinton Bruce</h5>
+                    <span class="text-muted d-block mb-2">CEO at Megacorp</span>
+                    <p> Aenean imperdiet ultrices tortor id convallis. Donec id metus magna. Morbi pretium odio faucibus blandit gravida.</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <!-- / Testimonials Section -->
+
+      <!-- Contact Section -->
+      <div class="contact section-invert py-4">
+        <h3 class="section-title text-center m-5">Contact Us</h3>
+        <div class="container py-4">
+          <div class="row justify-content-md-center px-4">
+            <div class="contact-form col-sm-12 col-md-10 col-lg-7 p-4 mb-4 card">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label for="contactFormFullName">Full Name</label>
+                      <input type="email" class="form-control" id="contactFormFullName" placeholder="Enter your full name">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label for="contactFormEmail">Email address</label>
+                      <input type="email" class="form-control" id="contactFormEmail" placeholder="Enter your email address">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputMessage1">Message</label>
+                        <textarea id="exampleInputMessage1" class="form-control mb-4" rows="10" placeholder="Enter your message..." name="message"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <input class="btn btn-primary btn-pill d-flex ml-auto mr-auto" type="submit" value="Send Your Message">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Contact Section -->
+
+      <!-- Footer Section -->
+      <footer>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">Shards Agency</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      </footer>
+      <!-- / Footer Section -->
+
+      <!-- JavaScript Dependencies -->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
