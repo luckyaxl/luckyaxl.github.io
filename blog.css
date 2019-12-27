@@ -200,9 +200,9 @@
       <h3 class="section-title text-center m-5">Latest Posts</h3>
 
       <div class="container">
-        <b:section class="card mb-4" id="main" showaddelement="no">
-          <b:widget id="Blog1" locked="true" title="Posting Blog" type="Blog" />
-        </b:section>
+            <b:section class="main" id="main" showaddelement="no">
+                    <b:widget id="Blog1" locked="true" title="Posting Blog" type="Blog" />
+                </b:section>
         <div class="py-4">
           <div class="row">
             <div class="card-deck">
