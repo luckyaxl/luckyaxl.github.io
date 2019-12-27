@@ -1,0 +1,248 @@
+/*Navigation*/
+.navbar {
+  border-radius: 0;
+}
+/*Nav Brand*/
+.navbar-brand img {
+  width: 32px;
+  height: 32px;
+}
+.navbar-brand {
+  padding: 10px 20px;
+}
+/*Blog Wrapper*/
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: -20px;
+}
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.blog-sidebar {
+  margin: 0;
+}
+/*Headings*/
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+/*Posts*/
+.post .post-title {
+  margin-bottom: 0;
+}
+.post-body {
+  margin: 0 0 0.75em;
+  line-height: 1.6em;
+  font-size: 15px;
+}
+/*Post Image*/
+.post table.tr-caption-container td {
+  border: none;
+  padding: 8px;
+}
+.post table.tr-caption-container,
+.post table.tr-caption-container img,
+.post img {
+  max-width: 100%;
+  height: auto;
+}
+.post td.tr-caption {
+  color: #333;
+  font-size: 80%;
+  padding: 8px 8px 8px !important;
+  background-color: #eee;
+  font-style: italic;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+table.tr-caption-container {
+  padding: 4px;
+  margin-bottom: 0.5em;
+}
+td.tr-caption {
+  font-size: 80%;
+}
+.post table caption {
+  border: none;
+  font-style: italic;
+}
+.post table caption {
+  border: 1px solid #d8dde1;
+  padding: 0.2em 0.5em;
+  text-align: left;
+  vertical-align: top;
+}
+/*Post Footer*/
+.post-footer {
+  margin: 0.75em 0;
+  letter-spacing: 0.1em;
+  line-height: 1.4em;
+  font-size: 12px;
+}
+/*Post Meta*/
+.blog-post-meta {
+  margin: 10px 0 5px;
+  color: #999;
+  font-size: 15px;
+}
+.blog-post-meta a {
+  color: #999;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+.blog-post-meta a:hover {
+  border-bottom: 1px solid #23527c;
+}
+.timestamp-link {
+  cursor: help;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+.timestamp-link:hover {
+  border-bottom: 1px solid #23527c;
+}
+/*Breadcrumbs and Date Header Font-size*/
+.breadcrumb,
+.date-header {
+  font-size: 13px;
+}
+/*SideBar*/
+.sidebar .widget ul,
+.sidebar .widget ol {
+  margin-top: 0;
+}
+.sidebar h2,
+.sidebar h3,
+.footer h2 {
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  position: relative;
+  padding: 8px 15px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+/*Popular Posts*/
+.popular-posts ul,
+.popular-posts li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.popular-posts li {
+  margin-bottom: 0.6em;
+}
+.PopularPosts .item-snippet {
+  font-size: 12px;
+  color: #333;
+  max-height: 45px;
+  overflow: hidden;
+}
+.PopularPosts .item-thumbnail {
+  transition: all 0.15s ease-in-out 0s;
+  margin: 0 8px 0 0;
+  display: inline;
+  opacity: 10;
+}
+.PopularPosts .item-thumbnail a img {
+  height: 69px;
+  width: 69px;
+  display: block;
+  margin: 0;
+  padding: 2px;
+  border: 1px solid #e8e8e8 !important;
+}
+.PopularPosts .item-thumbnail a img:hover {
+  background: #00afaf;
+  border: 1px solid #00afaf !important;
+}
+.PopularPosts .widget-content ul li {
+  padding: 3px 0px !important;
+  border-bottom: 1px solid #e2e2e2;
+}
+/*Footer*/
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer a {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+.blog-footer a:hover {
+  border-bottom: 1px solid #23527c;
+}
+/*Comments*/
+#comments h4 {
+  margin: 1em 0;
+  font-weight: bold;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+#comments-block {
+  margin: 1em 0 1.5em;
+  line-height: 1.6em;
+}
+#comments-block .comment-author {
+  margin: 0.5em 0;
+}
+#comments-block .comment-body {
+  margin: 0.25em 0 0;
+}
+#comments-block .comment-footer {
+  margin: -0.25em 0 2em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#comments-block .comment-body p {
+  margin: 0 0 0.75em;
+}
+.deleted-comment {
+  font-style: italic;
+  color: gray;
+}
+.feed-links {
+  display: none;
+}
+/*Responsive*/
+
+/*Override Bootstrap's default container.*/
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .blog-main,
+  .blog-sidebar {
+    float: none;
+    display: block;
+    width: auto;
+  }
+}
