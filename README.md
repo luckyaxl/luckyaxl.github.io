@@ -12,7 +12,7 @@ I'm a self taught programmer, creating open source projects, writing and develop
 
 - [Dandy Shoes Cleaner](https://www.dandysclean.com)
 - [Pusat Speaker Murottal](https://pusatspeakermurottal.store/)
-- [Gatsby Blog](http://greenscode.netlify.com/)
+- [Gatsby Blog](https://notifday.netlify.app/)
 
 ## Apps Development
 
